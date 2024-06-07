@@ -25,7 +25,7 @@ function Home (){
         </div>
 
 
-        <Buttons filteredClothes ={chosenClothes} setClothes={data}/>
+        <Buttons filteredClothes ={chosenClothes} setClothes={setClothes}/>
         <Clothes listClothes={clothes}/>
       
         </div>
